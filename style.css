@@ -1,12 +1,12 @@
 
 
- /* :root{
-   background-image:
-   
-  -moz-linear-gradient(180deg, orange,red);
-  
+ body{
+   background:linear-gradient(180deg, orange,red);
+  color: aquamarine;
     
-}  */
+}  
+
+
 
 header{ color:rgb(255, 0, 0);
    position: sticky;
