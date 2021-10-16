@@ -8,14 +8,27 @@
     
 }  */
 
- body{
+ 
+:root{
+   --section-width:0 ;
+   --section-height:0 ;
+   --section-border:50px solid transparent ;
+}
+
+.home{
+    
+  
+}
+
+
+/* body{
     background-image:
     linear-gradient(180deg, orange,red)
     
    /* -moz-linear-gradient(180deg, orange,red); */
    
      
- }  
+ 
 
  
 
