@@ -8,7 +8,15 @@
     
 }  */
 
- 
+header{ color:rgb(255, 0, 0);
+   position: sticky;
+   width: 375px;
+   height:100px;
+} 
+
+
+
+
 :root{
    --section-width:0 ;
    --section-height:0 ;
@@ -22,18 +30,13 @@
 
 
 /* body{
-    background-image:
-    linear-gradient(180deg, orange,red)
-    
-   /* -moz-linear-gradient(180deg, orange,red); */
+    height: 100vh;
+    background-image: 
+   -moz-linear-gradient(180deg, orange,red);
    
      
  
 
- 
+}  */
 
- header{ color:rgb(255, 255, 255);
-    position: sticky;
-    width: 375px;
-    height:100px;
-} 
+ 
