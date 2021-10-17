@@ -1,32 +1,64 @@
 
+*{margin: 0;
+padding: 0;
+}
 
- body{
-   background:linear-gradient(180deg, orange,red);
-  color: aquamarine;
-    
+ div{
+   background:linear-gradient(200deg, rgb(243, 239, 231),rgb(0, 26, 255));
+  color: rgb(10, 10, 10);
+  text-align: center;
+padding-bottom: 100vh;    
+padding-right: 50vw; 
+padding-left: 50vw;;
 }  
 
 
+  article{
+height:50vh;
+width:50vh;
+font-size:1.5rem;
+border-radius: 13px;
+border-style: solid;
+display: flex;
+justify-content: center;
+background-color: white;
+border-color: rgb(250, 250, 250);
+box-shadow:50px 50px 70px 60px rgba(0, 0, 0, 0.377);
 
-header{ color:rgb(255, 0, 0);
+}  
+
+.projects{
+   /* display: none; */
+}
+
+.aboutMe{
+/* display: none; */
+}
+
+ header{ color:rgba(0, 0, 0, 0.068);
    position: sticky;
    width: 375px;
    height:100px;
-} 
+}  
 
+.right-arrow{
+   
 
-
-
-:root{
-   --section-width:0 ;
-   --section-height:0 ;
-   --section-border:50px solid transparent ;
 }
 
-.home{
+
+ :root{
+   --button-width: 100px;
+   --button-height: 100px;
+   --button-background: red;
+   --button-border-radius: 50%
+
+}
+
+/* .home{ */
     
   
-}
+
 
 
 /* body{
