@@ -30,13 +30,50 @@ header{ color:#D9BB41;
 }  
 
 
-/* content header font & sizing */
+/*  */
 .title{
   
-  border-radius:40% ;
-  width:101%;
-  height:90%
+
 }
+
+h2{font-size:1.5em; 
+  border-bottom: #D9BB41 solid  2px;
+  
+  color: #000;}
+
+
+/* content header coloring ,content header font & sizing*/
+#resume{ color:#EBE6F9;
+  background-color:#AD3D75 ;
+  width:101%;
+  height:10%;
+  font-size: 2.5rem;
+border: #D9BB41 solid;
+}
+
+
+
+
+#projects{color: #EBE6F9;
+  background-color:#D9AA5A;
+  width:101%;
+  height:10%;
+  font-size: 2.5rem;
+  border:#3D4870 solid;
+ 
+}
+
+#aboutMe{color: #EBE6F9;
+  background-color:#77A143;
+  width:101%;
+  height:10%;
+  font-size: 2.5rem;
+  border:#C844E0 solid;
+}
+
+
+
+
 
 
  menu{ margin-top: 5vh;;
@@ -44,17 +81,6 @@ header{ color:#D9BB41;
 
 
 }
-
-/* content header coloring */
-#resume{ color:#EBE6F9;
-  background-color:#AD3D75 }
-
-#projects{color: #EBE6F9;
-  background-color:#D9AA5A;}
-
-#aboutMe{color: #EBE6F9;
-  background-color:#77A143;}
-
 
 
 /* for main content  */
@@ -76,35 +102,51 @@ box-shadow:50px 50px 50px 60px rgba(0, 0, 0, 0.322);
 margin-left:30px;
 }  
 
+.open{margin-bottom: -30px;}
+
+
+.close{margin-top: -60px;}
+
+
+
 
 .projects{
-    /* display: none; */
+  color: #AD3D75;
+     /* display: none; */
 }
 
 .aboutMe{
- /* display: none; */
+  color: #77A143;
+ /* display: none;  */
 }
 
-button{
+/* button{
   
    border-radius: 50%; 
- 
-} 
+  }
+  */
 
 
-.arrow{
+
+.arrow-box{
+   justify-content: space-between;
+ display: flex;
+  align-items: center;
   cursor: pointer;
-  position: absolute;
+  /* position:absolute; */
+  
   top: 50%;
 }
 
-.left-arrow{left: 0;
-margin-left: 30px;
+.left-arrow{ left: 0;
+margin-left: 5px;
+padding: 3px;
 }
 
-.right-arrow{
-   
-
+.right-arrow{ 
+  right: 0;
+  margin-right: 5px; 
+  padding: 3px ;
 }
 
 aside{background-color:#3D4870 ;}
