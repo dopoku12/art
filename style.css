@@ -43,7 +43,7 @@ h2{font-size:1.5em;
 
 
 /* content header coloring ,content header font & sizing*/
-#resume{ color:#EBE6F9;
+#resume-header{ color:#EBE6F9;
   background-color:#AD3D75 ;
   width:101%;
   height:10%;
@@ -54,7 +54,7 @@ border: #D9BB41 solid;
 
 
 
-#projects{color: #EBE6F9;
+#projects-header{color: #EBE6F9;
   background-color:#D9AA5A;
   width:101%;
   height:10%;
@@ -63,7 +63,7 @@ border: #D9BB41 solid;
  
 }
 
-#aboutMe{color: #EBE6F9;
+#aboutMe-header{color: #EBE6F9;
   background-color:#77A143;
   width:101%;
   height:10%;
@@ -101,40 +101,30 @@ border-color: rgb(255, 255, 255);
 box-shadow:50px 50px 50px 60px rgba(0, 0, 0, 0.322);
 margin-left:30px;
 }  
+/*  */
 
+/* to cover white space caused by arrow */
 .open{margin-bottom: -30px;}
 
-
 .close{margin-top: -60px;}
+/* */
+
+
+/* hide content on click */
+.hide{ display: none;}
+/*  */
 
 
 
 
-.projects{
-  color: #AD3D75;
-     /* display: none; */
-}
-
-.aboutMe{
-  color: #77A143;
- /* display: none;  */
-}
-
-/* button{
-  
-   border-radius: 50%; 
-  }
-  */
 
 
-
+/* arrow styling */
 .arrow-box{
    justify-content: space-between;
  display: flex;
   align-items: center;
   cursor: pointer;
-  /* position:absolute; */
-  
   top: 50%;
 }
 
@@ -148,10 +138,11 @@ padding: 3px;
   margin-right: 5px; 
   padding: 3px ;
 }
-
-aside{background-color:#3D4870 ;}
+/*  */
 
 /* contact styling */
+aside{background-color:#3D4870 ;}
+
  .contact {
    z-index: 30;
    display: flex;
